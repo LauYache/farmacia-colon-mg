@@ -331,7 +331,32 @@ div.social-links{
     width: -webkit-fill-available;
   }
 
+  div.div-answer{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .div-answer p{
+  font-size: small;
+  }
+  span.years{
+    font-size: small;
+  }
+  .div-answer h1{
+    font-size: large;
+    }
+  
+  .div-answer div{
+    margin-top: 10px;
+  }
+  
+
 }
+
+
 
 nav{
   background: var(--mint-color);
@@ -515,9 +540,25 @@ div.contact-form{
   font-size: xx-large;
 }
 
-body.body-answer{
-  background: var(--mint-Color) ;
+.hamburger .bar {
+  background: var(--Secondary-Color) !important ;
 
+}
+
+div.div-answer{
+  padding-top: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div-answer span{
+font-size: medium;
+}
+
+.div-answer div{
+  margin-top: 10px;
 }
 
 
